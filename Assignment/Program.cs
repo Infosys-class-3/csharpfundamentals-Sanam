@@ -11,6 +11,7 @@
         Console.WriteLine(EmployeeContact);
         Console.WriteLine(EmployeeJob);
         Console.WriteLine(EmployeeSalary);
+        Console.WriteLine(EmployeeName);
     }
     
 

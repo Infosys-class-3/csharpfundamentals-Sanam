@@ -1,12 +1,14 @@
 ﻿Console.WriteLine("Odd numbers Less than 1000:");
 
-for (int a = 1; a < 1000; a++)
+for (int g = 1; g < 1000; g++)
 {
-    if (a % 2 != 0 )
+    if (g % 2 != 0 && g != 999)
     {
-        Console.Write(a + ",");
+        Console.Write(g + ",");
     }
-    
+    if (g == 999)
+    {
+        Console.Write(g + "\n");
+
+    }
 }
-
-
